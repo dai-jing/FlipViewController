@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75D2EF516192F2900311F2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75D2EF416192F2900311F2C /* UIKit.framework */; };
+		C75D2EF716192F2900311F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75D2EF616192F2900311F2C /* Foundation.framework */; };
+		C75D2EF916192F2900311F2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75D2EF816192F2900311F2C /* CoreGraphics.framework */; };
+		C75D2EFF16192F2900311F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C75D2EFD16192F2900311F2C /* InfoPlist.strings */; };
+		C75D2F0116192F2900311F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2F0016192F2900311F2C /* main.m */; };
+		C75D2F0516192F2900311F2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2F0416192F2900311F2C /* AppDelegate.m */; };
+		C75D2F0716192F2900311F2C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C75D2F0616192F2900311F2C /* Default.png */; };
+		C75D2F0916192F2900311F2C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75D2F0816192F2900311F2C /* Default@2x.png */; };
+		C75D2F0B16192F2900311F2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75D2F0A16192F2900311F2C /* Default-568h@2x.png */; };
+		C75D2F0E16192F2900311F2C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2F0D16192F2900311F2C /* MainViewController.m */; };
+		C75D2F1116192F2900311F2C /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2F1016192F2900311F2C /* FlipsideViewController.m */; };
+		C75D2F1416192F2900311F2C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C75D2F1216192F2900311F2C /* MainViewController.xib */; };
+		C75D2F1716192F2900311F2C /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C75D2F1516192F2900311F2C /* FlipsideViewController.xib */; };
+		C75D2F1F16193E8900311F2C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2F1E16193E8800311F2C /* DrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C75D2EF016192F2900311F2C /* FlipViewCtlr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipViewCtlr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75D2EF416192F2900311F2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C75D2EF616192F2900311F2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C75D2EF816192F2900311F2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C75D2EFC16192F2900311F2C /* FlipViewCtlr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipViewCtlr-Info.plist"; sourceTree = "<group>"; };
+		C75D2EFE16192F2900311F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C75D2F0016192F2900311F2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C75D2F0216192F2900311F2C /* FlipViewCtlr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipViewCtlr-Prefix.pch"; sourceTree = "<group>"; };
+		C75D2F0316192F2900311F2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C75D2F0416192F2900311F2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C75D2F0616192F2900311F2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C75D2F0816192F2900311F2C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C75D2F0A16192F2900311F2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C75D2F0C16192F2900311F2C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C75D2F0D16192F2900311F2C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C75D2F0F16192F2900311F2C /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		C75D2F1016192F2900311F2C /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		C75D2F1316192F2900311F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		C75D2F1616192F2900311F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		C75D2F1D16193E8800311F2C /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		C75D2F1E16193E8800311F2C /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75D2EED16192F2900311F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D2EF516192F2900311F2C /* UIKit.framework in Frameworks */,
+				C75D2EF716192F2900311F2C /* Foundation.framework in Frameworks */,
+				C75D2EF916192F2900311F2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75D2EE516192F2900311F2C = {
+			isa = PBXGroup;
+			children = (
+				C75D2EFA16192F2900311F2C /* FlipViewCtlr */,
+				C75D2EF316192F2900311F2C /* Frameworks */,
+				C75D2EF116192F2900311F2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75D2EF116192F2900311F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2EF016192F2900311F2C /* FlipViewCtlr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75D2EF316192F2900311F2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2EF416192F2900311F2C /* UIKit.framework */,
+				C75D2EF616192F2900311F2C /* Foundation.framework */,
+				C75D2EF816192F2900311F2C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C75D2EFA16192F2900311F2C /* FlipViewCtlr */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2F0316192F2900311F2C /* AppDelegate.h */,
+				C75D2F0416192F2900311F2C /* AppDelegate.m */,
+				C75D2F0C16192F2900311F2C /* MainViewController.h */,
+				C75D2F0D16192F2900311F2C /* MainViewController.m */,
+				C75D2F1216192F2900311F2C /* MainViewController.xib */,
+				C75D2F0F16192F2900311F2C /* FlipsideViewController.h */,
+				C75D2F1016192F2900311F2C /* FlipsideViewController.m */,
+				C75D2F1516192F2900311F2C /* FlipsideViewController.xib */,
+				C75D2F1D16193E8800311F2C /* DrawView.h */,
+				C75D2F1E16193E8800311F2C /* DrawView.m */,
+				C75D2EFB16192F2900311F2C /* Supporting Files */,
+			);
+			path = FlipViewCtlr;
+			sourceTree = "<group>";
+		};
+		C75D2EFB16192F2900311F2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2EFC16192F2900311F2C /* FlipViewCtlr-Info.plist */,
+				C75D2EFD16192F2900311F2C /* InfoPlist.strings */,
+				C75D2F0016192F2900311F2C /* main.m */,
+				C75D2F0216192F2900311F2C /* FlipViewCtlr-Prefix.pch */,
+				C75D2F0616192F2900311F2C /* Default.png */,
+				C75D2F0816192F2900311F2C /* Default@2x.png */,
+				C75D2F0A16192F2900311F2C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75D2EEF16192F2900311F2C /* FlipViewCtlr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75D2F1A16192F2900311F2C /* Build configuration list for PBXNativeTarget "FlipViewCtlr" */;
+			buildPhases = (
+				C75D2EEC16192F2900311F2C /* Sources */,
+				C75D2EED16192F2900311F2C /* Frameworks */,
+				C75D2EEE16192F2900311F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipViewCtlr;
+			productName = FlipViewCtlr;
+			productReference = C75D2EF016192F2900311F2C /* FlipViewCtlr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75D2EE716192F2900311F2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Steven Senger";
+			};
+			buildConfigurationList = C75D2EEA16192F2900311F2C /* Build configuration list for PBXProject "FlipViewCtlr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C75D2EE516192F2900311F2C;
+			productRefGroup = C75D2EF116192F2900311F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75D2EEF16192F2900311F2C /* FlipViewCtlr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75D2EEE16192F2900311F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D2EFF16192F2900311F2C /* InfoPlist.strings in Resources */,
+				C75D2F0716192F2900311F2C /* Default.png in Resources */,
+				C75D2F0916192F2900311F2C /* Default@2x.png in Resources */,
+				C75D2F0B16192F2900311F2C /* Default-568h@2x.png in Resources */,
+				C75D2F1416192F2900311F2C /* MainViewController.xib in Resources */,
+				C75D2F1716192F2900311F2C /* FlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75D2EEC16192F2900311F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D2F0116192F2900311F2C /* main.m in Sources */,
+				C75D2F0516192F2900311F2C /* AppDelegate.m in Sources */,
+				C75D2F0E16192F2900311F2C /* MainViewController.m in Sources */,
+				C75D2F1116192F2900311F2C /* FlipsideViewController.m in Sources */,
+				C75D2F1F16193E8900311F2C /* DrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C75D2EFD16192F2900311F2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75D2EFE16192F2900311F2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C75D2F1216192F2900311F2C /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75D2F1316192F2900311F2C /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		C75D2F1516192F2900311F2C /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75D2F1616192F2900311F2C /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C75D2F1816192F2900311F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C75D2F1916192F2900311F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75D2F1B16192F2900311F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipViewCtlr/FlipViewCtlr-Prefix.pch";
+				INFOPLIST_FILE = "FlipViewCtlr/FlipViewCtlr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C75D2F1C16192F2900311F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipViewCtlr/FlipViewCtlr-Prefix.pch";
+				INFOPLIST_FILE = "FlipViewCtlr/FlipViewCtlr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75D2EEA16192F2900311F2C /* Build configuration list for PBXProject "FlipViewCtlr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D2F1816192F2900311F2C /* Debug */,
+				C75D2F1916192F2900311F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75D2F1A16192F2900311F2C /* Build configuration list for PBXNativeTarget "FlipViewCtlr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D2F1B16192F2900311F2C /* Debug */,
+				C75D2F1C16192F2900311F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75D2EE716192F2900311F2C /* Project object */;
+}
